@@ -1,0 +1,20 @@
+{
+  "operations": {
+    "create_general_ledger": {
+      "canHandler": true,
+      "requiredInputs": [
+        "accountName",
+        "initialBalance"
+      ]
+    },
+    "generate_balance_sheet": {
+      "canHandler": false,
+      "guidance": [
+        "Go to the Reports section.",
+        "Select 'Balance Sheet'.",
+        "Choose the date range.",
+        "Click 'Generate Report'."
+      ]
+    }
+  }
+}
